@@ -1,0 +1,219 @@
+/* font family related */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* common styles */
+.btn-primary {
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0px 141px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+main section {
+    margin-bottom: 80px;
+}
+
+/* navbar related styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.brand-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.link-container ul {
+    display: flex;
+    gap: 32px;
+}
+
+.link-container ul {
+    list-style: none;
+}
+
+.link-container a {
+    text-decoration: none;
+}
+
+.hambarger-container {
+    display: none;
+}
+
+
+.brand {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.link-item {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width:390px) {
+    .hambarger-container {
+        display: block;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .navbar {
+        border: 2px solid orange;
+        padding: 12px 16px;
+    }
+
+    .link-container,
+    .brand,
+    .btn-container {
+        display: none;
+    }
+}
+
+
+
+
+/* hero related styles */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-container {
+    max-width: 640px;
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.hero-description {
+    font-size: 20px;
+}
+
+.hero-container img {
+    width: 100%;
+}
+
+@media screen and (max-width:390px) {
+    main {
+        padding: 0px 16px;
+    }
+
+    .hero-container {
+        flex-direction: column-reverse;
+    }
+
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+}
+
+
+
+/* curriculum section */
+
+.crm-carts {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.crm-cart {
+    border-radius: 18px;
+    text-align: center;
+    padding: 52px 40px;
+    box-shadow: inset 0px 0px 28px 0.95px rgba(0, 0, 0, 0.05);
+}
+
+.cart-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cart-des {
+    font-size: 15px;
+    font-weight: normal;
+    color: rgba(128, 128, 128, 1);
+    line-height: 28px;
+}
+
+.cart-btn {
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.kinder {
+    background-image: linear-gradient(#DEF5FF, white, white);
+}
+
+.elementary {
+    background-image: linear-gradient(#FFF4DC, white, white);
+}
+
+.middle {
+    background-image: linear-gradient(#EEE1FF, white, white);
+
+}
+
+@media screen and (max-width:390px) {
+    .crm-carts {
+        flex-direction: column;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .cart-title {
+        font-size: 16px;
+    }
+
+    .cart-des,
+    .cart-btn {
+        font-size: 10px;
+        line-height: 19px;
+    }
+}
