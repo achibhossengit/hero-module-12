@@ -1,5 +1,6 @@
 /* font family related */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .quicksand-normal {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -16,9 +17,11 @@
     color: white;
     font-size: 20px;
 }
+
 body {
     margin: 0;
 }
+
 .section-title {
     text-align: center;
     font-size: 45px;
@@ -29,8 +32,7 @@ body {
 .navbar,
 .hero-container,
 .curriculum-container,
-.story-container
-{
+.story-container {
     padding: 0px 141px;
 }
 
@@ -169,14 +171,14 @@ body {
 
 
 /* story section related */
-.story-container{
+.story-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     padding-bottom: 60px;
 
-    background-image:linear-gradient(to top, rgba(255, 165, 0, 0.3), white), url(../assets/bg.png);
+    background-image: linear-gradient(to top, rgba(255, 165, 0, 0.3), white), url(../assets/bg.png);
 }
 
 .story-cart-container {
@@ -187,16 +189,18 @@ body {
     margin-bottom: 80px;
 }
 
-.story-cart img{
+.story-cart img {
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
+
 .story-cart {
     border-radius: 10px;
     background-color: white;
 }
-.cart-text{
-    padding:0 35px;
+
+.cart-text {
+    padding: 0 35px;
 }
 
 .cart-1 {
@@ -204,56 +208,88 @@ body {
     grid-row: span 2;
 }
 
-.crm-title{
+.crm-title {
     font-size: 15px;
+    font-weight: bold;
+}
+
+/* chalange part */
+
+.date-field {
+    display: inline-block;
+    padding: 15px 19px;
+    border-radius: 45px;
+    font-size: 10px;
+    color: white;
+
+    position: relative;
+    top: -50px;
+    left: 40px;
+}
+
+marquee {
+    color: black;
+    background-color: pink;
+    padding: 10px 0;
+    font-size: 20px;
     font-weight: bold;
 }
 
 
 
 /* footer related styles */
-footer h4, p, a{
+footer h4,
+p,
+a {
     color: white;
 }
 
-footer{
+footer {
     background-color: #01ACFD;
     padding: 140px 123px;
 }
-.footer-text-container{
+
+.footer-text-container {
     display: flex;
     justify-content: space-between;
 }
-.left-title-container{
+
+.left-title-container {
     display: flex;
     align-items: center;
     margin-bottom: 35px;
 }
-.left-container h4{
+
+.left-container h4 {
     margin: 0;
 }
 
-.left-title-container img{
+.left-title-container img {
     background-color: white;
     color: white;
 }
-.left-container{
+
+.left-container {
     max-width: 400px;
 }
-.left-container h4{
+
+.left-container h4 {
     font-size: 40px;
     line-height: 0.8;
 }
 
 
-.middle-container li, a{
+.middle-container li,
+a {
     list-style: none;
     text-decoration: none;
 }
-.middle-container li{
+
+.middle-container li {
     line-height: 3;
 }
 
-.middle-container h4, .right-container h4{
+.middle-container h4,
+.right-container h4 {
     font-size: 24px;
 }

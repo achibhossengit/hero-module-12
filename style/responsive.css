@@ -1,12 +1,11 @@
-@media screen and (max-width:575px) {
+@media screen and (max-width:800px) {
 
     /* common styles */
     .navbar,
     .hero-container,
     .curriculum-container,
     .story-container,
-    footer
-    {
+    footer {
         padding: 0px 16px;
     }
 
@@ -45,6 +44,7 @@
         flex-direction: column-reverse;
         margin-bottom: 20px;
     }
+
     .hero-title {
         font-size: 32px;
     }
@@ -56,15 +56,17 @@
     .hero-description {
         font-size: 14px;
     }
-    
-    
+
+
     /* curriculum section */
-    .curriculum-container{
+    .curriculum-container {
         margin-bottom: 20px;
     }
+
     .crm-carts {
         flex-direction: column;
     }
+
     .crm-btn {
         display: none;
     }
@@ -81,28 +83,42 @@
 
 
     /* story section */
-    .story-cart-container{
+    .story-cart-container {
         grid-template-columns: 1fr 1fr;
         margin-bottom: 20px;
     }
-    .story-container{
+
+    .story-container {
         padding-bottom: 40px;
     }
-    .cart-1{
+
+    .cart-1 {
         display: none;
     }
-    .crm-title{
+
+    .crm-title {
         font-size: 9px;
     }
-    .cart-text{
+
+    .cart-text {
         padding: 0 22px;
         font-size: 4px;
     }
 
+    /* chalange part */
+    .date-field {
+        padding: 5px 11px;
+        font-size: 9px;
+        font-weight: 400;
+
+        top: -30px;
+        left: 20px;
+    }
+
 
     /* footer related styles */
-    .footer-text-container{
+    .footer-text-container {
         flex-direction: column;
-        padding:50px 0;
+        padding: 50px 0;
     }
 }
