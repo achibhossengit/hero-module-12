@@ -1,0 +1,108 @@
+@media screen and (max-width:575px) {
+
+    /* common styles */
+    .navbar,
+    .hero-container,
+    .curriculum-container,
+    .story-container,
+    footer
+    {
+        padding: 0px 16px;
+    }
+
+    .btn-primary {
+        padding: 6px 24px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+
+    /* navbar */
+    .hambarger-container {
+        display: block;
+    }
+
+    .navbar {
+        border: 2px solid orange;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .link-container,
+    .brand,
+    .btn-container {
+        display: none;
+    }
+
+
+    /* hero section */
+    .hero-container {
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+    }
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+    
+    
+    /* curriculum section */
+    .curriculum-container{
+        margin-bottom: 20px;
+    }
+    .crm-carts {
+        flex-direction: column;
+    }
+    .crm-btn {
+        display: none;
+    }
+
+    .cart-title {
+        font-size: 16px;
+    }
+
+    .cart-des,
+    .cart-btn {
+        font-size: 10px;
+        line-height: 19px;
+    }
+
+
+    /* story section */
+    .story-cart-container{
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+    }
+    .story-container{
+        padding-bottom: 40px;
+    }
+    .cart-1{
+        display: none;
+    }
+    .crm-title{
+        font-size: 9px;
+    }
+    .cart-text{
+        padding: 0 22px;
+        font-size: 4px;
+    }
+
+
+    /* footer related styles */
+    .footer-text-container{
+        flex-direction: column;
+        padding:50px 0;
+    }
+}
